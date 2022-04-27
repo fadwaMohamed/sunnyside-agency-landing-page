@@ -1,0 +1,129 @@
+.header {
+    background-image: url('../images/desktop/image-header.jpg');
+    height: 100vh;
+    min-height: 230px;
+}
+.egg {
+    background-image: url('../images/desktop/image-transform.jpg');
+}
+.glass {
+    background-image: url('../images/desktop/image-stand-out.jpg');
+}
+.bg-img {
+    background-position: center;
+    background-size: cover;
+}
+body{
+    min-width: 180px;
+    width: auto !important;
+    width: 180px;
+}
+
+/* header */
+.header h1 {
+    margin-top: 10vh;
+    letter-spacing: 0.25rem;
+    font-size: 3rem;
+    font-family: Fraunces;
+}
+.header .navBar {
+    position: relative;
+}
+
+.header a {
+    text-decoration: none;
+    color: var(--white);
+    font-weight: 500;
+}
+.header a:hover {
+    color: var(--white);
+}
+
+.hamburger {
+    display: none;
+}
+
+.header .links {
+    display: flex;
+    justify-content: space-between;
+    width: 45%;
+}
+.header .link:hover {
+    cursor: pointer;
+}
+
+.header .contact {
+    width: fit-content;
+    background-color: var(--white);
+    transition: 0.3s;
+}
+.header .contact a {
+    color: var(--darkDarkBlue);
+    font-family: Fraunces;
+}
+.header .contact:hover {
+    background-color: #71cffb;
+}
+.header .contact:hover a {
+    color: var(--white);
+}
+
+/* seconed part (services) */
+#services .article {
+    padding: 3rem;
+    min-height: 400px;
+}
+#services h2 {
+    font-family: Fraunces;
+    font-weight: 700;
+    font-size: 2rem;
+    color: var(--darkDarkBlue);
+}
+#services p {
+    color: var(--darkGray2);
+    font-weight: 500;
+}
+#services .more {
+    width: fit-content;
+    color: var(--darkDarkBlue);
+    font-family: Fraunces;
+    position: relative;
+    
+}
+#services .more:hover {
+   cursor: pointer; 
+}
+
+#services .more::before {
+    content: '';
+    position: absolute;
+    width: 114%;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 5px;
+    right: -7%;
+    bottom: 0.5px;
+    transition: 0.3s;
+    z-index: -1;
+}
+.transform .more::before {
+    border-color: hsla(51, 100%, 49%, 0.2);
+}
+.transform .more:hover::before {
+    border-color: hsla(51, 100%, 49%, 1);
+}
+.standOut .more::before {
+    border-color: hsla(7, 99%, 70%, 0.2);
+}
+.standOut .more:hover::before {
+    border-color: hsla(7, 99%, 70%, 1);
+}
+
+/* last section */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}

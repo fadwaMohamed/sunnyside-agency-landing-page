@@ -1,0 +1,69 @@
+/* media Queries */
+
+/* header */
+.header {
+    background-image: url("./../images/mobile/image-header.jpg");
+}
+.hamburger {
+    display: block;
+}
+.header a, .header a:hover {
+    color: var(--darkGray2);
+}
+.header .navBar {
+    position: relative;
+}
+.hide {
+    display: none !important;
+}
+.header .links {
+    width: initial;
+    padding: 1.5rem 0.5rem;
+    flex-direction: column;
+    background-color: var(--white);
+    position: absolute;
+    left: 1rem;
+    right: 1rem;
+    top: calc(1rem + 75px);
+}
+.header .links::before {
+    content: "";
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent var(--white) var(--white) transparent;
+    position: absolute;
+    right: 0;
+    top: -20px;
+}
+.header .link {
+    text-align: center;
+}
+.header .link:not(:last-child) {
+    margin-bottom: 1.3rem;
+}
+.header .contact {
+    background-color: var(--yellow);
+    transition: 0.3s;
+    margin: auto;
+}
+.header .contact a {
+    color: var(--darkDarkBlue);
+}
+
+/* seconed part (services) */
+.egg {
+    background-image: url('../images/mobile/image-transform.jpg');
+    padding-top: 50%;
+    min-height: 250px;
+}
+.glass {
+    background-image: url('../images/mobile/image-stand-out.jpg');
+    padding-top: 50%;
+    min-height: 250px;
+}
+#services .article {
+    padding: 0.5rem;
+}
+#services .more {
+    margin: auto;
+}
