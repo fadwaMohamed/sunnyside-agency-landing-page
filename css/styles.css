@@ -9,6 +9,24 @@
 .glass {
     background-image: url('../images/desktop/image-stand-out.jpg');
 }
+.graphicDesign {
+    background-image: url('../images/desktop/image-graphic-design.jpg');
+}
+.photography {
+    background-image: url('../images/desktop/image-photography.jpg');
+}
+.bottle {
+    background-image: url('../images/desktop/image-gallery-milkbottles.jpg');
+}
+.orange {
+    background-image: url('../images/desktop/image-gallery-orange.jpg');
+}
+.cone {
+    background-image: url('../images/desktop/image-gallery-cone.jpg');
+}
+.cubes {
+    background-image: url('../images/desktop/image-gallery-sugarcubes.jpg');
+}
 .bg-img {
     background-position: center;
     background-size: cover;
@@ -18,8 +36,13 @@ body{
     width: auto !important;
     width: 180px;
 }
+h3 {
+    font-family: Barlow;
+    font-weight: 800;
+    font-size: 2.2rem;
+}
 
-/* header */
+/* first part (header) */
 .header h1 {
     margin-top: 10vh;
     letter-spacing: 0.25rem;
@@ -68,10 +91,13 @@ body{
     color: var(--white);
 }
 
-/* seconed part (services) */
+/* second part (services) */
 #services .article {
     padding: 3rem;
-    min-height: 400px;
+}
+#services p {
+    font-family: Barlow;
+    opacity: 0.8;
 }
 #services h2 {
     font-family: Fraunces;
@@ -79,11 +105,11 @@ body{
     font-size: 2rem;
     color: var(--darkDarkBlue);
 }
-#services p {
+.transform p, .standOut p {
     color: var(--darkGray2);
     font-weight: 500;
 }
-#services .more {
+.transform .more, .standOut .more {
     width: fit-content;
     color: var(--darkDarkBlue);
     font-family: Fraunces;
@@ -93,7 +119,6 @@ body{
 #services .more:hover {
    cursor: pointer; 
 }
-
 #services .more::before {
     content: '';
     position: absolute;
@@ -119,10 +144,65 @@ body{
     border-color: hsla(7, 99%, 70%, 1);
 }
 
-/* last section */
+.graphicDesign, .photography {
+    min-height: 450px;
+}
+.graphicPhoto .text {
+    padding-top: 18rem;
+    max-width: 350px;
+}
+.graphicPhoto h5 {
+    font-family: Fraunces;
+}
+.graphicDesign {
+    color: var(--darkCyan);
+}
+.photography {
+    color: var(--darkBlue);
+}
+
+/* forth part (projects) */
+.photos .bg-img{
+    height: 260px;
+}
+
+/* fifth part (contact) */
+#contact {
+    background-color: hsl(167, 44%, 70%);
+    color: var(--darkCyan);
+}
+#contact h3 {
+    opacity: 0.9;
+}
+#contact ul{
+    font-family: Barlow;
+    opacity: 0.8;
+    max-width: 350px;
+}
+#contact .social {
+    max-width: 180px;
+}
+#contact a {
+    text-decoration: none;
+    color: var(--darkCyan);
+    transition: 0.3s;
+}
+#contact svg path{
+    transition: 0.3s;
+}
+#contact svg:hover, #contact a:hover {
+    cursor: pointer;
+    color: var(--white);
+}
+#contact svg:hover path {
+    fill: white;
+}
+
+/* last part */
 .attribution {
     font-size: 11px;
     text-align: center;
+    background-color: hsl(167, 44%, 70%);
 }
 .attribution a {
     color: hsl(228, 45%, 44%);

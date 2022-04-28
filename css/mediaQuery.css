@@ -1,9 +1,6 @@
 /* media Queries */
 
 /* header */
-.header {
-    background-image: url("./../images/mobile/image-header.jpg");
-}
 .hamburger {
     display: block;
 }
@@ -52,12 +49,10 @@
 
 /* seconed part (services) */
 .egg {
-    background-image: url('../images/mobile/image-transform.jpg');
     padding-top: 50%;
     min-height: 250px;
 }
 .glass {
-    background-image: url('../images/mobile/image-stand-out.jpg');
     padding-top: 50%;
     min-height: 250px;
 }
@@ -66,4 +61,9 @@
 }
 #services .more {
     margin: auto;
+}
+
+/* forth part */
+.photos .bg-img{
+    height: 200px;
 }
