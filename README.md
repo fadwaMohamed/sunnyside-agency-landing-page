@@ -22,9 +22,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshots/landingPage1_desktop.png)
-![](./screenshots/landingPage1_mobile.png)
-![](./screenshots/landingPage1_mobile_navbar.PNG)
+![](./screenshots/desktop.png)
+![](./screenshots/mobile.png)
+![](./screenshots/mobile_navbar.PNG)
 
 ### Links
 
