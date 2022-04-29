@@ -35,8 +35,6 @@ body{
     min-width: 180px;
     width: auto !important;
     width: 180px;
-    overflow: hidden;
-    text-overflow: ellipsis;
 }
 h3 {
     font-family: Barlow;
