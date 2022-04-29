@@ -1,6 +1,9 @@
 /* media Queries */
 
 /* header */
+.header {
+    height: 80vh;
+}
 .hamburger {
     display: block;
 }
@@ -63,7 +66,12 @@
     margin: auto;
 }
 
+/* third part (clients) */
+.clients h5 {
+    margin-top: 4rem;
+}
+
 /* forth part */
 .photos .bg-img{
-    height: 200px;
+    height: 150px;
 }

@@ -49,6 +49,9 @@ h3 {
     font-size: 3rem;
     font-family: Fraunces;
 }
+.header .mainContent svg{
+    margin-top: 3.5rem;
+}
 .header .navBar {
     position: relative;
 }
@@ -91,18 +94,22 @@ h3 {
     color: var(--white);
 }
 
+
 /* second part (services) */
 #services .article {
-    padding: 3rem;
+    line-height: 2rem;
 }
+#services .article > div > div{
+    max-width: 400px;
+}
+
 #services p {
     font-family: Barlow;
-    opacity: 0.8;
 }
 #services h2 {
     font-family: Fraunces;
-    font-weight: 700;
-    font-size: 2rem;
+    font-weight: 900;
+    font-size: 2.2rem;
     color: var(--darkDarkBlue);
 }
 .transform p, .standOut p {
@@ -114,7 +121,6 @@ h3 {
     color: var(--darkDarkBlue);
     font-family: Fraunces;
     position: relative;
-    
 }
 #services .more:hover {
    cursor: pointer; 
@@ -145,10 +151,10 @@ h3 {
 }
 
 .graphicDesign, .photography {
-    min-height: 450px;
+    min-height: 550px;
 }
 .graphicPhoto .text {
-    padding-top: 18rem;
+    padding-top: 22rem;
     max-width: 350px;
 }
 .graphicPhoto h5 {
@@ -161,9 +167,42 @@ h3 {
     color: var(--darkBlue);
 }
 
+/* third part (clients) */
+.clients {
+    margin: 6rem 0;
+}
+.clients .col-12.col-md-4 {
+    padding: 0 2.2rem;
+}
+.clients h5 {
+    color: var(--grey);
+    font-family: Fraunces;
+    letter-spacing: 0.25rem;
+    opacity: 0.8;
+}
+.clients img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.clients .details {
+    font-family: Barlow;
+    color: var(--darkGray1);
+    margin-bottom: 2.5rem !important;
+}
+.clients .prefix {
+    font-family: Fraunces;
+    color: var(--darkDarkBlue);
+    font-weight: 900 !important;
+}
+.clients .job {
+    font-family: Barlow;
+    color: var(--grey);
+}
+
 /* forth part (projects) */
 .photos .bg-img{
-    height: 260px;
+    height: 420px;
 }
 
 /* fifth part (contact) */

@@ -4,11 +4,11 @@
     box-sizing: border-box;
 }
 :root {
-    --softRed: hsl(7, 99%, 70%);
+    /* --softRed: hsl(7, 99%, 70%); */
     --yellow: hsl(51, 100%, 49%);
     --darkCyan: hsl(167, 40%, 24%);
     --darkBlue: hsl(198, 62%, 26%);
-    --moderateCyan: hsl(168, 34%, 41%);
+    /* --moderateCyan: hsl(168, 34%, 41%); */
     --white: hsl(0, 0%, 100%);
     --grey: hsl(210, 4%, 67%);
     --darkDarkBlue: hsl(212, 27%, 19%);
